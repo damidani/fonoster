@@ -13,7 +13,7 @@ curl https://raw.githubusercontent.com/fonoster/fonos/main/operator/cloud-config
 Be sure to update the environment variables to meet your requirements. Then, from the same directory, fire up Multipass:
 
 ```bash
-multipass launch --name fonos --disk 10G --cpus 2 --mem 4G --cloud-init cloud-config.txt
+multipass launch --name fonos --disk 10G --cpus 2 --memory 4G --cloud-init cloud-config.txt
 ```
 
 You might see a "timed out waiting for initialization to complete", especially in a slow Internet connection. Don't worry. The process will continue in the background. You can access your VM and continue to follow the installation process with:
